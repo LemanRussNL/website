@@ -52,37 +52,29 @@ img.zweefLinks {
 }
 
 a {
-    color: skyblue;
+    color: white;
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
-
 /* navigatiebalk */
 nav {
-    height: 100%;
+    height: 1000px;
     width: 250px;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     overflow-x: hidden;
     list-style-type: none;
-    background-color: #dddddd;
-    margin: 5px;
+    background-color: black;
 }
-
-
-nav li a {
+ul#40kSub li a {
     font-size: 25px;
     display: block;
     color: white;
     text-align: left;
-    padding: 6px 8px 6px 16px;
+    padding: 2px;
     text-decoration: none;
-}
+} 
 
 nav li a:hover {
     background-color: #aaaaaa;
@@ -93,24 +85,24 @@ nav li a.active {
     background-color: skyblue;
 }
 
-#huis {
-    padding-top: 10px;
-}
-
-nav ul.submenu {
+/*nav ul.submenu {
     display: none;
 }
 
 nav li:hover ul.submenu {
     display: block;
+}*/
+
+/*nav ul li ul.submenu2 {
+    display: none;
 }
 
-nav ul.submenu li {
 
+nav .submenu li:hover ul.submenu2 {
+    display: block;
+} */
 
-}
-
-nav ul.submenu li a {
-
-
-}
+/*
+nav ul.submenu li:hover ul.submenu2{
+    background-color: #aaaaaa;
+}*/
