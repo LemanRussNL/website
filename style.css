@@ -15,14 +15,6 @@ html, body {
     font: Verdana, Arial, Sans-Serif;
 }
 
-
-main {
-    margin: 0 auto;
-    width: 700px;
-    position: relative;
-}
-
-
 article {
     text-align: justify;
 }
@@ -39,8 +31,12 @@ footer {
     padding-bottom: 10px;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
 
-/* specifieke stijlen */
+/* specifieke stijlen 
 
 img.zweefLinks {
     float: left;
@@ -51,14 +47,11 @@ img.zweefLinks {
     font-size: 0.7em;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-}
+ */
 
 /* navigatiebalk */
 nav {
-    height: 1000px;
+    height: 1200px;
     width: 250px;
     position: absolute;
     top: 0;
@@ -66,14 +59,17 @@ nav {
     overflow-x: hidden;
     list-style-type: none;
     background-color: black;
+    color: white;
+    
 }
-ul#40kSub li a {
+ul#submenu li a {
     font-size: 25px;
     display: block;
     color: white;
     text-align: left;
-    padding: 2px;
     text-decoration: none;
+    padding-left: 50px;
+    margin-left: 50px;
 } 
 
 nav li a:hover {
@@ -85,24 +81,27 @@ nav li a.active {
     background-color: skyblue;
 }
 
-/*nav ul.submenu {
-    display: none;
+#huis {
+    font-size: 50px;
+    margin-top: 0px;
 }
 
-nav li:hover ul.submenu {
-    display: block;
-}*/
+/* layout voor een pagina */
 
-/*nav ul li ul.submenu2 {
-    display: none;
+article {
+    position: absolute;
+    left: 270px;
+    font-size: 20px;
 }
-
-
-nav .submenu li:hover ul.submenu2 {
-    display: block;
-} */
-
-/*
-nav ul.submenu li:hover ul.submenu2{
-    background-color: #aaaaaa;
-}*/
+.serie {
+    border: 3px solid black;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+.boek {
+    border: 3px solid black;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
