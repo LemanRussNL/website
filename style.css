@@ -27,15 +27,15 @@ header {
 header p {
     margin-left: 250px;
 }
-img {
+img.boekkaft {
     height: 200px;
+    margin: 10px 0px;
+    float: left;
 }
 
 h6 {
     font: 25px bold;
-    border: 3px solid black;
-    margin-top: 20px;
-    background-color: white;
+
 }
 h2 {
     color: rgb(155, 6, 6);
@@ -55,7 +55,7 @@ img.zweefLinks {
 
 /* navigatiebalk */
 nav {
-    height: 1200px;
+    height: 1500px;
     width: 250px;
     position: absolute;
     top: 0;
@@ -94,9 +94,11 @@ article {
     left: 270px;
     font-size: 20px;
 }
-img {
-    float: left;
-    height: 200px;
+.serie {
+    overflow: hidden;
+    border: 3px solid black;
+    margin-top: 20px;
+    background-color: white;
 }
 
 .serie p {
@@ -105,6 +107,14 @@ img {
     padding: 10px;
     font-size: 20px;
 }
+
+.boek {
+    overflow: hidden;
+    border: 3px solid black;
+    margin-top: 20px;
+    background-color: white;
+}
+
 .boek p {
     margin-top: 10px;
     margin-right: 10px;
