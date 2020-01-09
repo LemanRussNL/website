@@ -19,7 +19,6 @@ article {
     text-align: justify;
 }
 
-
 header {
     color: skyblue;
     text-align: center;
@@ -33,6 +32,32 @@ img.boekkaft {
     margin: 10px 0px;
     float: left;
 }
+.uitgelichtBoek {
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: white;
+    color: black;
+    font-weight: normal;
+    float: left;
+    padding: 10px;
+}
+.row::after { 
+    content: "";
+    clear: both;
+    display: table;
+}
+.row {
+    border: 3px solid black;
+    background-color: white;
+}
+.uitgelichteTitel {
+    text-align: center;
+}
+
+.uitgelichteKaft {
+    width: 200px;
+}
 
 h6 {
     font: 25px bold;
@@ -41,18 +66,13 @@ h6 {
 h2 {
     color: rgb(155, 6, 6);
 }
-/* specifieke stijlen 
-
-img.zweefLinks {
-    float: left;
-    margin-right: 15px;
+ul#info {
+    margin-top: 200px;
 }
-
-.smalltext {
-    font-size: 0.7em;
+#uitgelicht {
+    text-align: center;
+    font-size: 2em;
 }
-
- */
 
 /* navigatiebalk */
 nav {
